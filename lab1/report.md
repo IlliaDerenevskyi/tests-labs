@@ -25,9 +25,8 @@ https://IlliaDerenevskyi.github.io/tests-labs/
 
 Скріншот результату:
 
-```text
+
 ![Результат лабораторної роботи](./lab1.png)
-```
 
 ## Висновок
 
