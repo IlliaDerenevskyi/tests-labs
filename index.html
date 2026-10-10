@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Архів лабораторних робіт з тестування програмних систем">
+    <title>Лабораторні роботи | Тестування</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <input class="theme-checkbox" type="checkbox" id="theme-switch">
+    <div class="shell">
+        <header class="topbar">
+            <div class="mark">
+                <span class="mark-symbol">T</span>
+                testing / labs
+            </div>
+            <div class="header-meta">
+                <span class="archive-status">Навчальний архів · 2026</span>
+                <label class="theme-toggle" for="theme-switch" title="Змінити тему">
+                    <span class="light-icon" aria-hidden="true">☀</span>
+                    <span class="dark-icon" aria-hidden="true">☾</span>
+                </label>
+            </div>
+        </header>
+
+        <main>
+            <section class="intro" aria-labelledby="page-title">
+                <div>
+                    <p class="eyebrow">Тестування програмних систем та комплексів</p>
+                    <h1 id="page-title">Лабораторні роботи</h1>
+                    <p class="intro-copy">
+                        Архів виконаних лабораторних робіт з налаштування Python
+                        та автоматизованого тестування програм.
+                    </p>
+                </div>
+                <div class="intro-aside">
+                    <strong>02</strong>
+                    <span>звіти в архіві<br>одна сторінка для швидкого переходу</span>
+                </div>
+            </section>
+
+            <section aria-labelledby="works-title">
+                <div class="section-heading">
+                    <h2 id="works-title">Архів робіт</h2>
+                    <span>Оберіть лабораторну роботу, щоб відкрити звіт →</span>
+                </div>
+
+                <div class="lab-grid">
+                    <article class="lab-card">
+                        <div>
+                            <div class="card-top">
+                                <span class="number">01 / PYTHON</span>
+                                <span class="card-icon" aria-hidden="true">⌘</span>
+                            </div>
+                            <h3>Робоче середовище Python</h3>
+                            <p>
+                                Налаштування середовища, встановлення залежностей
+                                і перевірка запуску першої Python-програми.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="tag">Підготовка середовища</span>
+                            <a class="button" href="./lab1/">Відкрити <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </article>
+
+                    <article class="lab-card">
+                        <div>
+                            <div class="card-top">
+                                <span class="number">02 / PYTEST</span>
+                                <span class="card-icon" aria-hidden="true">✓</span>
+                            </div>
+                            <h3>Модульне тестування</h3>
+                            <p>
+                                Розробка тестів для валідації користувача з
+                                перевіркою винятків, параметризацією та фікстурами.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <span class="tag">Автоматизоване тестування</span>
+                            <a class="button" href="./lab2/">Відкрити <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Тестування програмних систем · лабораторний архів</p>
+            <p>IlliaDerenevskyi · 2026</p>
+        </footer>
+    </div>
+</body>
+</html>
