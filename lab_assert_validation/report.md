@@ -33,10 +33,6 @@ permalink: /lab3/
 
 Етап REFACTOR — усі тести `BankAccount` проходять:
 
-![Етап REFACTOR](./screen3.png)
-
-Feature-файл із першим BDD-сценарієм:
-
 ![Feature-файл](./screen4.png)
 
 Step definitions Given/When/Then:
