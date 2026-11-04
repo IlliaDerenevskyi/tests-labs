@@ -47,9 +47,7 @@ Step definitions Given/When/Then:
 
 ![Невдалий BDD-сценарій](./screen6.png)
 
-Фінальний запуск усіх тестів:
 
-![Фінальний запуск](./screen7.png)
 
 ## Висновок
 
