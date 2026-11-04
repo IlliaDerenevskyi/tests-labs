@@ -47,10 +47,6 @@ Step definitions Given/When/Then:
 
 ![Невдалий BDD-сценарій](./screen6.png)
 
-Фінальний запуск усіх тестів:
-
-![Фінальний запуск](./screen7.png)
-
 ## Висновок
 
 Під час виконання лабораторної роботи через `assert` та `pytest.raises()` було перевірено правильні й неправильні вхідні дані, за циклом TDD розроблено класи `BankAccount` і `TemperatureConverter`, а поведінку `UserRegistrationValidator` та `DiscountCalculator` описано BDD-сценаріями Given → When → Then.
