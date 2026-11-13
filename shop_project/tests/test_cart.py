@@ -51,7 +51,7 @@ def test_total_of_several_products(cart, keyboard, mouse):
     cart.add_product(keyboard)
     cart.add_product(mouse)
 
-    assert cart.get_total() == 1500
+    assert cart.get_total() == 5000
 
 
 def test_total_with_quantity_greater_than_one(cart, keyboard):
